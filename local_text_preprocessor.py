@@ -37,9 +37,8 @@ def readFileLines(filename):
     data = []
     with open(filename, 'r', encoding='utf-8') as fd:
         content = fd.readlines()
-    for x in content:
-        data.append(x)
-    return data
+
+    return content
 
 # Build a dataset that can be read by the model
 def buildDataset(tokenizer, filename, pad_len):
