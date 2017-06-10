@@ -23,7 +23,7 @@ ytest_file_pos = 'data//test//ytest_pos.txt'
 # Model Hyperparameters
 max_features = 10000
 maxlen = 50  # cut texts after this number of words (among top max_features most common words)
-batch_size = 64
+batch_size = 32
 
 # Initialize Tokenizer constructor
 tokenizer = Tokenizer()
@@ -48,7 +48,7 @@ ytest_pos = ltp.readLabels(ytest_file_pos)
 print('Build model...')
 model = Sequential()
 model.add(Embedding(max_features, maxlen))
-model.add(LSTM(64, dropout=0.8))
+model.add(LSTM(512, dropout=0.8))
 model.add(Dense(1, activation='sigmoid'))
 
 # try using different optimizers and different optimizer configs
@@ -81,6 +81,7 @@ while n <= 5:
 # Save model
 #model.save('pretrained')
 
+"""
 while True:
     print("Maglagay ng pangungusap")
     sentence = input()
@@ -96,6 +97,6 @@ while True:
         print("Negative")
     else:
         print("Positive")
-
+"""
 # Fixes error message after testing phase
 k.clear_session()
