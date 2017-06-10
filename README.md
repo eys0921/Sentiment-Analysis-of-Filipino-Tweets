@@ -22,10 +22,10 @@ using machine learning approach:
     $ ./oh_my_go.sh
 
 ## Results
-![Results](https://puu.sh/wfVFV/45ac583af5.PNG)
+![Results](https://puu.sh/wfWdE/7b173f214e.PNG)
 
 ## Example of tweets wrongly classified
-![Examples](https://puu.sh/wfVHC/14626c0892.PNG)
+![Examples](https://puu.sh/wfWdN/85d06eb7f2.PNG)
 
 ## Attributions
 [NB-SVM Implementation](https://github.com/iamRusty/Sentiment-Analysis-of-Filipino-Tweets/tree/master/nbsvm) used in this paper is based off the work by Grégoire Mesnil [Naive Bayes SVM](https://github.com/mesnilgr/nbsvm). 
