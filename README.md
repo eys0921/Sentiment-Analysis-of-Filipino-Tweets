@@ -27,12 +27,27 @@ using machine learning approach:
 ## Example of tweets wrongly classified
 ![Examples](https://puu.sh/wfWdN/85d06eb7f2.PNG)
 
-## Attributions
-[NB-SVM Implementation](https://github.com/iamRusty/Sentiment-Analysis-of-Filipino-Tweets/tree/master/nbsvm) used in this paper is based off the work by Grégoire Mesnil [Naive Bayes SVM](https://github.com/mesnilgr/nbsvm). 
+### How should I cite this repo?
 
-[Naive Bayes SVM](https://github.com/mesnilgr/nbsvm) is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
+Please cite this study in your publications if it helps your research. Here is an example BibTeX entry:
+
+```
+@misc{MinaFilipinoSentiment,
+  title={Sentiment Analysis of Filipino Tweets Using Recurrent Neural Network},
+  author={Mina, Rusty John Lloyd and Atienza, Rowel},
+  year={2017},
+  publisher={GitHub},
+  howpublished={\url{https://github.com/iamRusty/Sentiment-Analysis-of-Filipino-Tweets}},
+}
+```
 
 ## Files yet to be posted
 1. Raw and Unprocessed JSON data of tweets (around 8GB)
 2. Scripts for processing JSON of tweets to text of tweets
 3. Scripts for getting stream of Tweets 
+
+
+## Attributions
+[NB-SVM Implementation](https://github.com/iamRusty/Sentiment-Analysis-of-Filipino-Tweets/tree/master/nbsvm) used in this paper is based off the work by Grégoire Mesnil [Naive Bayes SVM](https://github.com/mesnilgr/nbsvm). 
+
+[Naive Bayes SVM](https://github.com/mesnilgr/nbsvm) is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
